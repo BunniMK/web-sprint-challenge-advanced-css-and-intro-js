@@ -51,7 +51,7 @@ NOTE: tests will run in the JavaScript portion of this challenge only.
 5.[x] cd into your repo
 6.[x] open the terminal in your vs code and type `npm install`
 7.[x] next type `npm run test` in your terminal
-8.[] Complete your work making regular commits to main/ master your codegrade score will update each time you make a push.
+8.[X] Complete your work making regular commits to main/ master your codegrade score will update each time you make a push.
 
 
 ### Testing & Debugging
