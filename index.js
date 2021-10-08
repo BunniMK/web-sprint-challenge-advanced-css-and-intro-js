@@ -247,14 +247,19 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(arr) {
   let newArr = [];
   for(let i = 0; i < arr.length; i++){
-    arr[i].years.split('');
-    if (arr[i].includes()){
+    let split = arr[i].years.split(/\s*" "\s*/, 2);
+    
+    if (arr[i].years > 1899 && arr[i].years < 1921){
       newArr.push(arr[i].name);
-    } 
+    } else {
+      return 'Nope'
     }
+    }
+    
     return newArr;
   }
 
+      console.log(get20s(artists))
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
