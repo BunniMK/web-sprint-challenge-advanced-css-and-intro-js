@@ -33,7 +33,7 @@ Please answer the following questions below, you may edit the readme file to inc
 4. What is the purpose of using functions in code?
     - It allows the processing of data that would otherwise take a lot of code or the same lines of code over and over. It helps keep our code dry.
 5. How do you access a key inside of an object inside of an array?
-    - array[object]['key'] or array[object].key if their are no spaces or dashes.
+    - array[object]['key'] or array[object].key if there are no spaces or dashes.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -44,7 +44,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 Follow these steps to set up your project:
 
 1.[x] Fork the repo
-2.[x] Go into canvas and connect your reop to codegrade
+2.[x] Go into canvas and connect your repo to codegrade
 3.[x] Clone your forked version of the repo
 4.[x] DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today
 NOTE: tests will run in the JavaScript portion of this challenge only.

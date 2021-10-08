@@ -249,7 +249,7 @@ function get20s(arr) {
   let newArr = [];
   for(let i = 0; i < arr.length; i++){
     let split = arr[i].years.split(" ");
-    if (split[0] > 1899 && split[0] < 2000){
+    if (split[0] > 1899 && split[2] < 2000){
       newArr.push(arr[i].name);
     }
     }
@@ -257,7 +257,7 @@ function get20s(arr) {
   }
 
     //  Tested -
-    //   console.log(get20s(artists))
+      console.log(get20s(artists))
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
