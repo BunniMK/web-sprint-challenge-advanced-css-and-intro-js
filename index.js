@@ -208,17 +208,17 @@ Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
 //(1) Name of the first artist (0th index) in the array
-      // Done - console.log(artists[0].name);
+       console.log(artists[0].name);
 
 //(2) Bio of the third artist (2nd index) in the array 
-      // Done - console.log(artists[2].bio);
+      console.log(artists[2].bio);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
 artists[8].name = "Vincent Van Gogh";
-    // Done -console.log(artists[8].name);
+    console.log(artists[8].name);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
@@ -233,7 +233,8 @@ function getArtistByIndex(arr, num) {
  return `the artist at index ${arr[num].id} is ${arr[num].name}`
 }
 
-    // Tested - console.log(getArtistByIndex(artists, 0));
+    // Tested - 
+    // console.log(getArtistByIndex(artists, 0));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use get20s to do the following: 
@@ -255,7 +256,8 @@ function get20s(arr) {
     return newArr;
   }
 
-      console.log(get20s(artists))
+    //  Tested -
+    //   console.log(get20s(artists))
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -271,7 +273,8 @@ function removeArtist(arr, num) {
    arr.splice(num, 1);
    return arr.length;
 }
-    //  Tested - console.log(removeArtist(artists,9))
+    //  Tested - 
+    // console.log(removeArtist(artists,9))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -301,7 +304,8 @@ function addArtist(arr) {
   return arr;
 }
 
-    // Tested - console.log(addArtist(artists));
+    // Tested -
+    //  console.log(addArtist(artists));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -321,7 +325,8 @@ function lotsOfArt(arr) {
   return newArr;
 }
 
-    // Tested - console.log(lotsOfArt(artists));
+    // Tested - 
+    // console.log(lotsOfArt(artists));
 
 
 /* ***** END OF TASKS ***** */
