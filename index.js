@@ -245,16 +245,15 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s(arr) {
-//   let newArr = [];
-//   for(let i = 0; i < arr.length; i++){
-//     if (arr[i].includes(1900)){
-//       newArr.push(arr[i].name);
-//     } else {
-//       return `Brittni you suck`
-//     }
-//   }
-}
-// console.log(get20s(artists));
+  let newArr = [];
+  for(let i = 0; i < arr.length; i++){
+    arr[i].years.split('');
+    if (arr[i].includes()){
+      newArr.push(arr[i].name);
+    } 
+    }
+    return newArr;
+  }
 
 
 
@@ -289,10 +288,19 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(arr) {
+   arr.push({ 
+    "id": 20,
+    "name": "Brittni Karat", 
+    "years": "1991 - 2021",
+    "genre": "Web Design", 
+    "nationality": "American",
+    "bio": "I was born in 1991. I am still alive. I have one husband and one child."
+  });
+  return arr;
 }
 
+    // Tested - console.log(addArtist(artists));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -302,9 +310,17 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/) {
-  /*Your Code Here*/
+function lotsOfArt(arr) {
+  let newArr = [];
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i].paintings > 100){
+      newArr.push(arr[i].name);
+    } 
+  }
+  return newArr;
 }
+
+    // Tested - console.log(lotsOfArt(artists));
 
 
 /* ***** END OF TASKS ***** */
