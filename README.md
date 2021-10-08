@@ -22,11 +22,18 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
+1. How would you describe accessibility on the web to someone new to programming?
+    - Accessibility on the web is making the internet accessible to as many people as possible regardless of screen size, vision/hearing/ other impairments, or any other overcome-able obstacle. 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+    - Write in Semantic HTML with meaningful class and id names so that screen readers and other programers can follow along.
+    - Accompany color changes with symbols for those with color blindness.
+    - Add breakpoints for different screen sizes.
 3. How would you explain the concept of a variable to someone new to programming?
+    - A variable is a word, phrase, or other text used to store data.
 4. What is the purpose of using functions in code?
+    - It allows the processing of data that would otherwise take a lot of code or the same lines of code over and over. It helps keep our code dry.
 5. How do you access a key inside of an object inside of an array?
+    - array[object]['key'] or array[object].key if their are no spaces or dashes.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -36,26 +43,26 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Follow these steps to set up your project:
 
-1. Fork the repo
-2. Go into canvas and connect your reop to codegrade
-3. Clone your forked version of the repo
-4. DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today
+1.[x] Fork the repo
+2.[x] Go into canvas and connect your reop to codegrade
+3.[x] Clone your forked version of the repo
+4.[x] DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today
 NOTE: tests will run in the JavaScript portion of this challenge only.
-5. cd into your repo
-6. open the terminal in your vs code and type `npm install`
-7. next type `npm run test` in your terminal
-8. Complete your work making regular commits to main/ master your codegrade score will update each time you make a push.
+5.[x] cd into your repo
+6.[x] open the terminal in your vs code and type `npm install`
+7.[x] next type `npm run test` in your terminal
+8.[] Complete your work making regular commits to main/ master your codegrade score will update each time you make a push.
 
 
 ### Testing & Debugging
 
-Open a second terminal inside of your project by clicking on the split terminal icon
+[x] Open a second terminal inside of your project by clicking on the split terminal icon
 ![alt text](assets/split_terminal.png "Split Terminal")
 
-Inside of your second terminal type `npm start` 
+[x] Inside of your second terminal type `npm start` 
 ![alt text](assets/npm_start.png "type npm start")
 
-You will be running your tests in one terminal and debugging in the other. As you work on your code you should make use of `console.log` to check your progress and debug.
+[x] You will be running your tests in one terminal and debugging in the other. As you work on your code you should make use of `console.log` to check your progress and debug.
 ![alt text](assets/tests_debug_terminal_final.png "your terminal should look like this")
 
 ### Task 2a:  Minimum Viable Product - Responsive Design
